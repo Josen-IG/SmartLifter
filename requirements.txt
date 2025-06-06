@@ -1,0 +1,6 @@
+streamlit
+pandas
+numpy
+joblib
+python-dotenv
+git+https://github.com/groq/groq-api.git
