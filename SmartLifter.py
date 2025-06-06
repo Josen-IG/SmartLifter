@@ -24,6 +24,7 @@ def explicar_rutina(schedule: dict, user_profile: dict) -> str:
     Eres un entrenador personal virtual. Basándote en el siguiente perfil y rutina, crea una explicación en español 
     orientada al usuario que explique:
     - Por qué esta rutina se adapta a su perfil (nivel: {user_profile['Level_es']}, edad: {user_profile['Age']} años, IMC: {user_profile['BMI']}). 
+    -Explica de forma breve cuantas repeticiones y series debe hacer por ejercicio (toma en cuenta entre 3 y 5 series, y entre 8 y 12 repeticiones por serie).
     - Cómo distribuye el trabajo de grupos musculares para evitar sobrecargas.
     - La lógica de la cantidad de ejercicios por día según el tiempo que indicó ({user_profile['Workout_minutes']} min).
     - Qué beneficios generales obtendrá si sigue esta rutina.
