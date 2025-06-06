@@ -11,3 +11,4 @@ gitpython
 requests
 joblib
 groq
+python-dotenv
