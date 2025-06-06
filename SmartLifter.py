@@ -457,7 +457,7 @@ def main():
             st.error("Imagen 'bench.png' no encontrada. Verifique la ruta y el nombre del archivo.")
     st.markdown("---")
 
-    if st.button("🏋️‍♂️ Generar rutina"):
+    if st.button("Generar rutina"):
         try:
             schedule = generate_routine(
                 user_profile=user_input,
