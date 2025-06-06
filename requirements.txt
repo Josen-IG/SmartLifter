@@ -1,6 +1,13 @@
 streamlit
 pandas
 numpy
+matplotlib
+seaborn
+scikit-learn
+Pillow
+fuzzywuzzy
+python-Levenshtein
+gitpython
+requests
 joblib
-python-dotenv
-git+https://github.com/groq/groq-api.git
+groq
